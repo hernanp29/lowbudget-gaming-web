@@ -40,7 +40,7 @@
           ${discountHTML}
         </div>
         <a href="${p.link}" class="amz-btn" target="_blank" rel="noopener noreferrer">
-          CHECK PRICE ON AMAZON <span>↗</span>
+          BUY ON AMAZON <span>↗</span>
         </a>
       </div>
     `;
