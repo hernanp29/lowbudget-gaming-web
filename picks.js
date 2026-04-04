@@ -45,7 +45,21 @@ const picks = [
     priceOld: "$55.00",
     discount: "-33%",
     link: "https://amzn.to/4c5V8nc"
-  }
+  },
+  {
+    cat: "Headset",
+    badge: "ceo",
+    badgeText: "CEO'S CHOICE",
+    image: "images/headset.png",
+    emoji: "🎧",
+    name: "Redragon M719 Antonium",
+    stars: 5,
+    desc: "",
+    priceNow: "$35.98",
+    priceOld: "$49.99",
+    discount: "-28%",
+    link: "https://amzn.to/4mjCnkU"
+  },
   // Add more picks below — copy and paste a block above, then edit the values.
   // Example:
   // ,{
