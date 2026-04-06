@@ -74,6 +74,20 @@ const picks = [
     discount: "-12%",
     link: "https://amzn.to/3NZ6xx5"
   },
+  {
+    cat: "Room Decor",
+    badge: "best",
+    badgeText: "AMAZON'S CHOICE",
+    image: "images/ledstrips.png",
+    emoji: "🌈",
+    name: "GOVEE RGBIC SMART LED STRIPS",
+    stars: 4.4,
+    desc: "Transform your gaming room with app-controlled RGBIC technology. Segmented colors, music sync, and over 16 million colors to create the ultimate vibe.",
+    priceNow: "$13.49",
+    priceOld: "$14.99",
+    discount: "-10%",
+    link: "https://amzn.to/3QlfBNmÍ"
+},
   
   // Add more picks below — copy and paste a block above, then edit the values.
   // Example:
