@@ -88,6 +88,20 @@ const picks = [
     discount: "-10%",
     link: "https://amzn.to/4sct6MD"
 },
+  {
+  cat: "Accessories",
+  badge: "best",
+  badgeText: "OVERALL PICK",
+  image: "images/stand.png",
+  emoji: "🎧",
+  name: "NEW BEE ALUMINUM HEADPHONE STAND",
+  stars: 4.6,
+  desc: "Sturdy and slim design with a flexible headrest and solid base. Perfect for all headset sizes, keeping your desk clean and pro-organized.",
+  priceNow: "$6.99",
+  priceOld: "$8.99",
+  discount: "-22%",
+  link: "https://amzn.to/4c6zmzr"
+},
   
   // Add more picks below — copy and paste a block above, then edit the values.
   // Example:
