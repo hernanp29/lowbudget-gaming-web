@@ -86,7 +86,7 @@ const picks = [
     priceNow: "$13.49",
     priceOld: "$14.99",
     discount: "-10%",
-    link: "https://amzn.to/3QlfBNmÍ"
+    link: "https://amzn.to/4sct6MD"
 },
   
   // Add more picks below — copy and paste a block above, then edit the values.
