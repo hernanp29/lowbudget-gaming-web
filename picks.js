@@ -60,6 +60,21 @@ const picks = [
     discount: "-28%",
     link: "https://amzn.to/4mjCnkU"
   },
+  {
+    cat: "Accessories",
+    badge: "best",
+    badgeText: "BEST SELLER",
+    image: "images/mousepad.png",
+    emoji: "🖱️",
+    name: "RGB EXTENDED GAMING MOUSE PAD",
+    stars: 5,
+    desc: "Massive 31.5 x 12 inch surface with 14 stunning lighting modes. Non-slip rubber base and waterproof coating for the ultimate pro setup.",
+    priceNow: "$14.99",
+    priceOld: "$16.99",
+    discount: "-12%",
+    link: "https://amzn.to/3NZ6xx5"
+  },
+  
   // Add more picks below — copy and paste a block above, then edit the values.
   // Example:
   // ,{
