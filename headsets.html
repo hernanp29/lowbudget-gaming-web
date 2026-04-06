@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>5 Best Budget Gaming Headsets Under $50 (2026) | Low Budget Gaming</title>
+  <meta name="description" content="Our top picks for budget gaming headsets under $50 in 2026. Real sound, real comfort, real savings." />
+  <link rel="icon" href="/logo.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #050d07;
+      --surface: #0c1a0f;
+      --surface2: #112015;
+      --border: #1e3524;
+      --green: #4ade80;
+      --green-dim: #22c55e;
+      --green-glow: rgba(74, 222, 128, 0.15);
+      --text: #e8f5ea;
+      --muted: #6b8f72;
+      --red: #f87171;
+      --yellow: #fbbf24;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(5, 13, 7, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 14px 24px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    nav a.logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: var(--green);
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 18px;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+    nav a.logo img { height: 30px; }
+    nav .affiliate-note {
+      margin-left: auto;
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    /* ── HERO / HEADER ── */
+    .article-header {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 56px 24px 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .category-tag {
+      display: inline-block;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--green);
+      border: 1px solid var(--border);
+      padding: 3px 10px;
+      border-radius: 4px;
+      margin-bottom: 18px;
+    }
+    .article-header h1 {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      font-weight: 800;
+      line-height: 1.1;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+      margin-bottom: 16px;
+    }
+    .article-header h1 em {
+      font-style: normal;
+      color: var(--green);
+    }
+    .article-meta {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      font-size: 12px;
+      color: var(--muted);
+      flex-wrap: wrap;
+    }
+    .article-meta span { display: flex; align-items: center; gap: 5px; }
+
+    /* ── LAYOUT ── */
+    .page-body {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+
+    /* ── TOC ── */
+    .toc {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--green);
+      border-radius: 8px;
+      padding: 20px 24px;
+      margin-bottom: 40px;
+    }
+    .toc h3 {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--green);
+      margin-bottom: 12px;
+    }
+    .toc ol {
+      padding-left: 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .toc li { font-size: 13px; }
+    .toc a { color: var(--text); text-decoration: none; opacity: 0.75; transition: opacity 0.2s; }
+    .toc a:hover { opacity: 1; color: var(--green); }
+
+    /* ── INTRO ── */
+    .intro {
+      font-size: 16px;
+      line-height: 1.8;
+      color: #b8d4bc;
+      margin-bottom: 40px;
+    }
+
+    /* ── PRODUCT CARD ── */
+    .product-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.25s;
+      scroll-margin-top: 80px;
+    }
+    .product-card:hover { border-color: #2d5038; }
+    .product-card.featured {
+      border-color: var(--green);
+      background: linear-gradient(135deg, var(--surface2) 0%, var(--surface) 100%);
+      box-shadow: 0 0 32px var(--green-glow);
+    }
+
+    .card-top {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+    }
+    .card-badges { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+
+    .badge {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 3px 9px;
+      border-radius: 4px;
+    }
+    .badge-pick { background: var(--green); color: #052a0e; }
+    .badge-rank { background: transparent; border: 1px solid var(--border); color: var(--muted); }
+
+    .card-stars { color: var(--yellow); font-size: 14px; letter-spacing: 2px; }
+
+    .card-name {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 1.7rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+      line-height: 1;
+      margin-bottom: 6px;
+    }
+    .card-price {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--green);
+      margin-bottom: 14px;
+    }
+    .card-price .old-price {
+      font-size: 0.9rem;
+      font-weight: 400;
+      color: var(--muted);
+      text-decoration: line-through;
+      margin-left: 8px;
+    }
+    .card-price .discount {
+      font-size: 0.8rem;
+      background: rgba(74,222,128,0.12);
+      color: var(--green);
+      padding: 2px 7px;
+      border-radius: 4px;
+      margin-left: 6px;
+    }
+
+    .card-desc {
+      font-size: 14px;
+      color: #a0c4a7;
+      margin-bottom: 20px;
+      line-height: 1.7;
+    }
+
+    .pros-cons {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-bottom: 22px;
+    }
+    @media (max-width: 500px) { .pros-cons { grid-template-columns: 1fr; } }
+
+    .pros, .cons {
+      border-radius: 8px;
+      padding: 14px 16px;
+    }
+    .pros { background: rgba(74,222,128,0.06); border: 1px solid rgba(74,222,128,0.15); }
+    .cons { background: rgba(248,113,113,0.05); border: 1px solid rgba(248,113,113,0.12); }
+
+    .pros h4, .cons h4 {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    .pros h4 { color: var(--green); }
+    .cons h4 { color: var(--red); }
+
+    .pros ul, .cons ul { list-style: none; display: flex; flex-direction: column; gap: 5px; }
+    .pros li, .cons li { font-size: 13px; display: flex; gap: 7px; }
+    .pros li::before { content: '+'; color: var(--green); font-weight: 700; flex-shrink: 0; }
+    .cons li::before { content: '–'; color: var(--red); font-weight: 700; flex-shrink: 0; }
+
+    .btn-amazon {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--green);
+      color: #052a0e;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 11px 22px;
+      border-radius: 7px;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.15s;
+    }
+    .btn-amazon:hover { background: #86efac; transform: translateY(-1px); }
+
+    /* ── VERDICT ── */
+    .verdict {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 28px;
+      margin-top: 48px;
+    }
+    .verdict h2 {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 1.6rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--green);
+      margin-bottom: 14px;
+    }
+    .verdict p { font-size: 14px; color: #a0c4a7; line-height: 1.8; margin-bottom: 10px; }
+
+    /* ── DISCLAIMER ── */
+    .disclaimer {
+      margin-top: 48px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      font-size: 11px;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      text-align: center;
+      padding: 28px;
+      font-size: 12px;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+    }
+    footer a { color: var(--green); text-decoration: none; }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a class="logo" href="/">
+      <img src="/logo.png" alt="Low Budget Gaming" />
+      Low Budget Gaming
+    </a>
+    <span class="affiliate-note">🔗 Amazon affiliate links — no extra cost to you</span>
+  </nav>
+
+  <!-- ARTICLE HEADER -->
+  <header class="article-header">
+    <div class="category-tag">🎧 Headsets</div>
+    <h1>5 Best Budget Gaming Headsets<br/><em>Under $50</em> (2026)</h1>
+    <div class="article-meta">
+      <span>📅 Updated April 2026</span>
+      <span>⏱ 6 min read</span>
+      <span>🎮 PC · PS5 · Xbox · Switch</span>
+    </div>
+  </header>
+
+  <!-- BODY -->
+  <main class="page-body">
+
+    <!-- TABLE OF CONTENTS -->
+    <div class="toc">
+      <h3>📋 In This Article</h3>
+      <ol>
+        <li><a href="#stinger">#1 HyperX Cloud Stinger 2 — Best Overall</a></li>
+        <li><a href="#kraken">#2 Razer Kraken X — Best for Long Sessions</a></li>
+        <li><a href="#arctis">#3 SteelSeries Arctis Nova 1 — Best Sound Quality</a></li>
+        <li><a href="#hs35">#4 Corsair HS35 — Best Build Quality</a></li>
+        <li><a href="#g435">#5 Logitech G435 — Best Wireless Under $50</a></li>
+        <li><a href="#verdict">Final Verdict</a></li>
+      </ol>
+    </div>
+
+    <!-- INTRO -->
+    <p class="intro">
+      You don't need to spend $150 to hear enemy footsteps or enjoy immersive game audio. These 5 headsets all cost under $50 and punch way above their price tag. We filtered out the junk so you don't have to.
+    </p>
+
+    <!-- CARD 1 -->
+    <div class="product-card featured" id="stinger">
+      <div class="card-top">
+        <div class="card-badges">
+          <span class="badge badge-pick">⭐ Editor's Pick</span>
+          <span class="badge badge-rank">#1 Best Overall</span>
+        </div>
+        <div class="card-stars">★★★★★</div>
+      </div>
+      <div class="card-name">HyperX Cloud Stinger 2</div>
+      <div class="card-price">~$34.99 <span class="old-price">$49.99</span><span class="discount">-30%</span></div>
+      <p class="card-desc">
+        The easiest recommendation in budget gaming. 50mm drivers deliver real bass and clear highs. The flip-to-mute mic is one of the best at this price — physical and intuitive. Memory foam ear cushions mean you can game for hours. Works on PC, PS5, Xbox, and Nintendo Switch out of the box.
+      </p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul>
+            <li>Great bass response</li>
+            <li>Very comfortable for long sessions</li>
+            <li>Flip-to-mute mic is satisfying</li>
+            <li>Works on all major platforms</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul>
+            <li>Mostly plastic build</li>
+            <li>No inline volume wheel</li>
+            <li>Wired only</li>
+          </ul>
+        </div>
+      </div>
+      <a class="btn-amazon" href="TU_LINK_AFILIADO_AQUI" target="_blank" rel="noopener noreferrer">
+        Check price on Amazon →
+      </a>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="product-card" id="kraken">
+      <div class="card-top">
+        <div class="card-badges">
+          <span class="badge badge-rank">#2 Best Comfort</span>
+        </div>
+        <div class="card-stars">★★★★☆</div>
+      </div>
+      <div class="card-name">Razer Kraken X</div>
+      <div class="card-price">~$39.99</div>
+      <p class="card-desc">
+        At only 250g, the Kraken X is the go-to pick for gamers who can't stand heavy headsets. Wear it for 4+ hours and you'll barely notice it's there. The 7.1 virtual surround on PC is a genuine bonus at this price — great for FPS games where directional audio matters.
+      </p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul>
+            <li>Ultra lightweight (250g)</li>
+            <li>7.1 virtual surround on PC</li>
+            <li>Bendable, flexible mic</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul>
+            <li>Mic picks up some background noise</li>
+            <li>No in-line volume controls</li>
+          </ul>
+        </div>
+      </div>
+      <a class="btn-amazon" href="TU_LINK_AFILIADO_AQUI" target="_blank" rel="noopener noreferrer">
+        Check price on Amazon →
+      </a>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="product-card" id="arctis">
+      <div class="card-top">
+        <div class="card-badges">
+          <span class="badge badge-rank">#3 Best Sound</span>
+        </div>
+        <div class="card-stars">★★★★★</div>
+      </div>
+      <div class="card-name">SteelSeries Arctis Nova 1</div>
+      <div class="card-price">~$44.99 <span class="old-price">$59.99</span><span class="discount">-25%</span></div>
+      <p class="card-desc">
+        The best audio clarity on this list. SteelSeries' signature Nova acoustic system makes music, games, and movies sound genuinely impressive for the price. The ski-goggle suspension headband fits every head size comfortably without pressure points. A serious headset for serious gamers on a budget.
+      </p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul>
+            <li>Best audio clarity under $50</li>
+            <li>Suspension headband — fits all sizes</li>
+            <li>Works on PC, PS5, Xbox & Switch</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul>
+            <li>Priciest option on this list</li>
+            <li>Mic is not detachable</li>
+          </ul>
+        </div>
+      </div>
+      <a class="btn-amazon" href="TU_LINK_AFILIADO_AQUI" target="_blank" rel="noopener noreferrer">
+        Check price on Amazon →
+      </a>
+    </div>
+
+    <!-- CARD 4 -->
+    <div class="product-card" id="hs35">
+      <div class="card-top">
+        <div class="card-badges">
+          <span class="badge badge-rank">#4 Best Build Quality</span>
+        </div>
+        <div class="card-stars">★★★★☆</div>
+      </div>
+      <div class="card-name">Corsair HS35</div>
+      <div class="card-price">~$34.99</div>
+      <p class="card-desc">
+        Pick up the HS35 and it immediately feels like a headset that costs twice as much. The unidirectional Discord-certified mic does a solid job cutting out background noise — great for team comms. A convenient volume wheel sits on the ear cup so you never have to tab out to adjust audio.
+      </p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul>
+            <li>Premium feel at a budget price</li>
+            <li>Discord-certified mic quality</li>
+            <li>Volume wheel on ear cup</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul>
+            <li>No virtual surround sound</li>
+            <li>Slightly heavier than others</li>
+          </ul>
+        </div>
+      </div>
+      <a class="btn-amazon" href="TU_LINK_AFILIADO_AQUI" target="_blank" rel="noopener noreferrer">
+        Check price on Amazon →
+      </a>
+    </div>
+
+    <!-- CARD 5 -->
+    <div class="product-card" id="g435">
+      <div class="card-top">
+        <div class="card-badges">
+          <span class="badge badge-rank">#5 Best Wireless</span>
+        </div>
+        <div class="card-stars">★★★★☆</div>
+      </div>
+      <div class="card-name">Logitech G435 Wireless</div>
+      <div class="card-price">~$49.99 <span class="old-price">$79.99</span><span class="discount">-37%</span></div>
+      <p class="card-desc">
+        Wireless under $50 was nearly impossible a few years ago. The G435 changes that — Bluetooth + USB dongle support, 18-hour battery, and it weighs just 165g. It's the pick if wire management drives you insane. Trade-off: it uses built-in mics instead of a boom arm, so mic quality is average.
+      </p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul>
+            <li>Wireless at an unbeatable price</li>
+            <li>Lightest headset on the list (165g)</li>
+            <li>18-hour battery life</li>
+            <li>Bluetooth + USB dongle</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul>
+            <li>Built-in mics only — average quality</li>
+            <li>Sound stage is slightly thinner</li>
+          </ul>
+        </div>
+      </div>
+      <a class="btn-amazon" href="TU_LINK_AFILIADO_AQUI" target="_blank" rel="noopener noreferrer">
+        Check price on Amazon →
+      </a>
+    </div>
+
+    <!-- VERDICT -->
+    <div class="verdict" id="verdict">
+      <h2>🏆 Final Verdict</h2>
+      <p>
+        If you want the single best option, go with the <strong>HyperX Cloud Stinger 2</strong>. It delivers on comfort, sound, and mic quality — everything a gaming headset needs to do, done right, for around $35.
+      </p>
+      <p>
+        Need wireless? The <strong>Logitech G435</strong> is the only real choice under $50 that doesn't feel like a compromise. Sensitive to weight after long sessions? The <strong>Razer Kraken X</strong> at 250g is your pick.
+      </p>
+      <p>
+        Every headset on this list is a genuine upgrade over whatever free pair came in a box. Any of them will make your games sound better today.
+      </p>
+    </div>
+
+    <!-- DISCLAIMER -->
+    <p class="disclaimer">
+      As an Amazon Associate, Low Budget Gaming earns from qualifying purchases. Product prices and availability are accurate as of April 2026 and are subject to change. Prices shown are approximate.
+    </p>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Low Budget Gaming — <a href="/">← Back to all deals</a></p>
+  </footer>
+
+</body>
+</html>
