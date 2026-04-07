@@ -1,152 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-F86SN8CNWX"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-F86SN8CNWX');
-</script>  
-  
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<meta name="description" content="Low Budget Gaming — Hand-picked Amazon deals on gaming gear. Pro performance, budget price."/>
-<title>Low Budget Gaming | Pro Gear. Budget Price.</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Rajdhani:wght@400;500;600&display=swap" rel="stylesheet"/>
-<link rel="stylesheet" href="style.css"/>
-
-<style>
-  /* GUIDES SECTION */
-  .guides-section {
-    max-width: 1100px;
-    margin: 3rem auto 0;
-    padding: 0 2rem;
-  }
-  .guides-label {
-    font-family: 'Orbitron', monospace;
-    font-size: 10px;
-    font-weight: 700;
-    letter-spacing: 4px;
-    color: var(--muted);
-    text-transform: uppercase;
-    margin-bottom: 1rem;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  .guides-label::after {
-    content: '';
-    flex: 1;
-    height: 1px;
-    background: var(--border);
-  }
-  .guides-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-    gap: 1px;
-    background: var(--border);
-  }
-  .guide-card {
-    background: var(--card);
-    padding: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.6rem;
-    text-decoration: none;
-    color: var(--text);
-    transition: background 0.2s;
-    position: relative;
-    overflow: hidden;
-  }
-  .guide-card::before {
-    content: '';
-    position: absolute;
-    top: 0; left: 0;
-    width: 3px; height: 100%;
-    background: var(--neon);
-  }
-  .guide-card:hover { background: #1a1a28; }
-  .guide-cat {
-    font-size: 10px;
-    letter-spacing: 3px;
-    color: var(--neon);
-    text-transform: uppercase;
-  }
-  .guide-title {
-    font-family: 'Orbitron', monospace;
-    font-size: 0.82rem;
-    font-weight: 700;
-    line-height: 1.4;
-  }
-  .guide-desc {
-    font-size: 0.82rem;
-    color: var(--muted);
-    line-height: 1.6;
-    flex: 1;
-  }
-  .guide-cta {
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    color: var(--neon);
-    margin-top: 0.4rem;
-  }
-
-  /* DEALS label above grid */
-  .deals-label {
-    max-width: 1100px;
-    margin: 2.5rem auto 0;
-    padding: 0 2rem;
-    font-family: 'Orbitron', monospace;
-    font-size: 10px;
-    font-weight: 700;
-    letter-spacing: 4px;
-    color: var(--muted);
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  .deals-label::after {
-    content: '';
-    flex: 1;
-    height: 1px;
-    background: var(--border);
-  }
-</style>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-F86SN8CNWX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-F86SN8CNWX');
+  </script>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Low Budget Gaming — Hand-picked Amazon deals on gaming gear. Pro performance, budget price."/>
+  <title>Low Budget Gaming | Pro Gear. Budget Price.</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 
 <nav>
-  <a href="#" class="logo"><img src="logo.png" alt="Low Budget Gaming" class="logo-img"/></a>
+  <a href="/" class="logo">
+    <img src="logo.png" alt="Low Budget Gaming" class="logo-img"/>
+  </a>
   <span class="nav-note">🔗 Amazon affiliate links — no extra cost to you</span>
 </nav>
 
 <div class="hero">
-  <h1>ELITE GEAR.<br/><em>BUDGET PRICE.</em></h1>
-  <p>Hand-picked Amazon deals — updated regularly.</p>
+  <h1>ELITE GEAR.<em>BUDGET PRICE.</em></h1>
+  <p>Hand-picked Amazon deals — tested, ranked, updated regularly.</p>
+  <div class="hero-ctas">
+    <a href="#guides" class="btn-primary">📖 See Buying Guides</a>
+    <a href="#deals" class="btn-secondary">🔥 Latest Deals</a>
+  </div>
+</div>
+
+<!-- STATS BAR -->
+<div class="stats-bar">
+  <div class="stat-item">
+    <span class="stat-num">15+</span>
+    <span class="stat-label">Products Reviewed</span>
+  </div>
+  <div class="stat-item">
+    <span class="stat-num">$50</span>
+    <span class="stat-label">Max Budget</span>
+  </div>
+  <div class="stat-item">
+    <span class="stat-num">3</span>
+    <span class="stat-label">Gear Categories</span>
+  </div>
+  <div class="stat-item">
+    <span class="stat-num">2026</span>
+    <span class="stat-label">Updated Picks</span>
+  </div>
 </div>
 
 <!-- BUYING GUIDES -->
-<div class="guides-section">
-  <div class="guides-label">📖 Buying Guides</div>
-  <div class="guides-grid">
-    <a href="/headsets.html" class="guide-card">
-      <div class="guide-cat">🎧 Headsets</div>
-      <div class="guide-title">5 Best Budget Gaming Headsets Under $50 (2026)</div>
-      <div class="guide-desc">Real sound, real comfort, real savings. Our top picks tested and ranked.</div>
-      <div class="guide-cta">Read the guide →</div>
-    </a>
-    <a href="/mouses.html" class="guide-card">
-      <div class="guide-cat">🖱️ Mice</div>
-      <div class="guide-title">5 Best Budget Gaming Mice Under $40 (2026)</div>
-      <div class="guide-desc">Wireless, RGB, ergonomic — top picks tested and ranked.</div>
-      <div class="guide-cta">Read the guide →</div>
+<div class="section-label" id="guides"><span>📖 Buying Guides</span></div>
+<div class="guides-grid">
+  <a href="/headsets.html" class="guide-card">
+    <div class="guide-cat">🎧 Headsets</div>
+    <div class="guide-title">5 Best Budget Gaming Headsets Under $50 (2026)</div>
+    <div class="guide-desc">Real sound, real comfort, real savings. Our top picks tested and ranked.</div>
+    <div class="guide-cta">Read the guide →</div>
+  </a>
+  <a href="/mouses.html" class="guide-card">
+    <div class="guide-cat">🖱️ Mice</div>
+    <div class="guide-title">5 Best Budget Gaming Mice Under $40 (2026)</div>
+    <div class="guide-desc">Wireless, RGB, ergonomic — top picks tested and ranked.</div>
+    <div class="guide-cta">Read the guide →</div>
   </a>
   <a href="/keyboards.html" class="guide-card">
     <div class="guide-cat">⌨️ Keyboards</div>
@@ -154,18 +74,16 @@
     <div class="guide-desc">Mechanical, TKL, RGB — top picks for every type of gamer.</div>
     <div class="guide-cta">Read the guide →</div>
   </a>
-  </div>
 </div>
 
 <!-- DEALS -->
-<div class="deals-label">🔥 Latest Deals</div>
-
+<div class="section-label" id="deals"><span>🔥 Latest Deals</span></div>
 <div class="grid" id="picks-grid">
-  <!-- Cards are injected by script.js from picks.js -->
+  <!-- Cards injected by script.js from picks.js -->
 </div>
 
 <footer>
-  <div class="f-logo"><img src="logo.png" alt="Low Budget Gaming" style="height:50px;width:auto;margin-bottom:0.6rem"/></div>
+  <div class="f-logo"><img src="logo.png" alt="Low Budget Gaming"/></div>
   <div class="f-txt">© 2026 — As an Amazon Associate, we earn from qualifying purchases.</div>
 </footer>
 
